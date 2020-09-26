@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="login.css" rel="stylesheet" type="text/css">
+    <link href="register.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:ital,wght@0,400;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
     <title> Login </title>
 </head>
@@ -11,13 +11,22 @@
     <div class="title">
         <img class="logo-w" src="assets/logo.svg">
         <img class="logo-b" src="assets/logo-b.svg">
-        <h1>¡Bienvenido/a de vuelta!</h1>
+        <h1>¡Bienvenido/a a CoviajesRV!</h1>
     </div>
 
     <div class="container">
 
         <div class="content">
             <div class="login__inputs">
+                <p>
+                    <label for="name"> Nombre </label>
+                    <input id="name" type="text" placeholder="Ingrese su Nombre">
+                </p>
+                
+                <p>
+                    <label for="email"> Email </label>
+                    <input id="email" type="email" placeholder="Ingrese su Email">
+                </p>
                 <p>
                     <label for="user"> Usuario </label>
                     <input id="user" type="text" placeholder="Ingrese su usuario">
@@ -30,7 +39,7 @@
                     <a href="index.html"><button type="submit"> Ingresar </button></a>
                 </p>
                 <div class="register">
-                    <a href="register.html">¿No tiene cuenta? Regístrese aquí</a>
+                    <a href="login.html">En realidad ya tengo cuenta. Ingresar</a>
                 </div>
             </div>
 
