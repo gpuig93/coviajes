@@ -388,7 +388,7 @@ section {
     .cards-container {
         display: block;
         margin: auto;
-        width: 50%;
+        /* width: 50%; */
     }
     .card {
         width: 300px;
