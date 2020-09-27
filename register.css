@@ -139,6 +139,13 @@ input {
         right: 0%;
     }
 }
+
+@media screen and (max-height: 800px) {
+    .login__inputs {
+        transform: scale(0.9);
+    }
+}
+
 @media screen and (min-width: 1000px) {
     .div-img {
         display: flex;
