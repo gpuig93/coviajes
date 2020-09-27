@@ -13,6 +13,7 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     color: #3A3938;
     font-weight: 700;
+    display: none;
 
 }
 
@@ -157,6 +158,8 @@ input {
 
     h1 {
         color: white;
+        display: block;
+        margin: auto;
     }
     
 

@@ -40,12 +40,15 @@ a p{
 
 .logo-b {
     width: 240px;
-    /* padding-top: 40px; */
+    display: none;
     visibility: visible;
+    display: block;
+    margin: auto;
+
 }
 
 .logo-w {
-
+    display: none;
     visibility: hidden;
 }
 
@@ -151,6 +154,7 @@ input {
         width: 240px;
         padding-top: 40px;
         visibility: visible;
+        display: flex;
     }
 
     h1 {
