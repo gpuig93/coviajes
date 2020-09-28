@@ -16,6 +16,7 @@ div {
       width: 100%;
   }
   
+  
 }
 
 p {
@@ -280,19 +281,6 @@ section.fix div {
   height: auto;
 }
 
-@media screen and (max-width: 850px){
-  
-  .vr {
-      margin: -400px auto;
-  }
-  h1 {
-      font-size: 50px;
-  }
-  h2 {
-    font-size: 30px;
-  }
-}
-
 @keyframes vr {
   from {
      top: -10px;
@@ -302,6 +290,22 @@ section.fix div {
 
       top: 10px;
   }
+}
+
+
+@media screen and (max-width: 850px){
+  
+
+  .vr {
+      margin: -400px auto;
+  }
+  h1 {
+      font-size: 50px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  
 }
 
 
@@ -372,7 +376,7 @@ section.fix div {
 .card {
   background: white;
   border-radius: 10px;
-  width: 270px;
+  max-width: 270px;
   text-align: center;
   padding: 30px;
   margin: 15px;
@@ -391,7 +395,8 @@ section.fix div {
       /* width: 50%; */
   }
   .card {
-      width: 300px;
+      max-width: 300px;
+
       margin: 15px auto 15px auto;
   }
   .testimonios {
@@ -460,6 +465,7 @@ transition-duration: 0.4s;
       display: block;
       width: 80%;
       text-align: center;
+      padding: 0;
   }
 
   .form-container #name, #email, select, button {
