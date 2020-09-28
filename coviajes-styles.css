@@ -11,9 +11,9 @@ div {
 }
 
 @media screen and (max-width: 1400px) {
-    div {
-        width: 80%;
-    }
+    /* div {
+        width: 100%;
+    } */
     
 }
 @media screen and (max-width: 1400px) {
@@ -247,12 +247,13 @@ section {
   }
  
 .ps5xbox {
-    width: 400px;
+  max-width: 60%;  
+  min-width: 40%;
     margin: 50px;
 }
 
 .whitecut {
-    padding-top: 100px;
+    padding-top: 150px;
     width: 100%;
     bottom: 0;
 }
@@ -429,7 +430,7 @@ section {
   }
 
   .form-container select, button {
-    width: 509px;
+    width: 50%;
 }
 
   .checkbox {
@@ -463,17 +464,21 @@ section {
     }
 
     .form-container #name, #email, select, button {
-        width: 300px;
+        width: 50%;
+        min-width: 90%;
     }
 
     .form-container select, button {
-        width: 309px;
+        /* width: 309px; */
+        min-width: 90%;
     }
     .form-container div {
         padding: 10px;
     }
 
   }
+
+  
 
   @media screen and (max-width: 1700px) {
     .form-container {
